@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity">
+
+    <item android:id="@+id/llamar"
+        android:title="Llamar ..."
+        android:icon="@android:drawable/ic_dialog_dialer"
+        app:showAsAction="ifRoom" />
+    <item android:id="@+id/mensaje"
+        android:title="Enviar Mensaje"
+        android:icon="@android:drawable/ic_dialog_info"
+        app:showAsAction="ifRoom"
+        />
+</menu>
